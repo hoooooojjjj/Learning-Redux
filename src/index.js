@@ -85,6 +85,7 @@ const paintToDos = () => {
   });
 };
 
+// 화면에 데이터를 업데이트할 때 subscribe을 통해 상태 변화를 감지해서 업데이트 하는 것
 store.subscribe(paintToDos);
 
 const onSubmit = (e) => {
